@@ -1,0 +1,254 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F8F9FA !important;
+    font-family: sans-serif;
+}
+/* Navbar */
+.nav-style{
+    background-color: #F8F9FA;
+  
+}
+
+/* Hero banner css */
+.hero-style{
+    margin: 50px 0px 0px 0px;
+}
+.hero-style h1{
+color: rgba(0, 0, 0, 0.678);
+}
+.hero-style p{
+    font-weight: 400;
+}
+.hero-button{
+    background-color: #5fb7f1 !important;
+    color: #ffffff !important;
+}
+.hero-button:hover{
+    background-color: #ffffff !important;
+    color: #2A87C6 !important;
+}
+
+
+/* About section css */
+.about-list-style{
+    color: rgb(68, 235, 212);
+    list-style: none;
+    margin: 10px 0px 10px -35px;
+}
+.about-list-style span{
+    color: rgba(0, 0, 0, 0.445);
+    font-family: sans-serif;
+    margin: 0px 0px 0px 10px;
+}
+
+
+
+
+/* Portfoliyo Section css */
+
+.portfoliyo-style h2{
+    text-align: center;
+    color: #515d63;
+}
+.portfoliyo-style p{
+    text-align: center;
+    color: #707F86;
+}
+.portfoliyo-tabs ul{
+    justify-content: center;
+}
+.portfoliyo-tabs ul li a{
+    color: #000;
+}
+.portfoliyo-img img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+/* Testimonial styles */
+
+.testimonial-card {
+    position: relative;
+    width: 300px;
+    height: 300px
+}
+
+.testcard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease
+}
+
+.testcard:hover {
+    transform: rotateY(180deg)
+}
+
+.testfront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hidden;
+    background: #5fb7f1;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 10px
+}
+
+.testback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: hidden;
+    background: #5fb7f1;
+    color: #fff;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 10px
+}
+
+.user_name {
+    color: #eee;
+    font-size: 10px;
+    margin-top: 0px
+}
+
+.about {
+    font-size: 12px
+}
+
+/* Contact Style */
+
+
+
+
+.section-contact {
+    padding: 120px;
+		background-color: #fff;
+}
+
+.section-contact .header-section .title {
+	position: relative;
+	margin-bottom: 17px;
+	text-transform: uppercase;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.section-contact .header-section .title .dot {
+    display: inline-block;
+	position: absolute;
+    bottom: 8px;
+    width: 8px;
+    height: 8px;
+    margin-left: 3px;
+    background-color: #5fb7f1;
+}
+
+.section-contact .header-section .description {
+	font-family: "Roboto", sans-serif;
+	color: #2a6287;
+}
+
+.section-contact .header-section .big-title {
+	position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%,70%);
+    font-size: 120px;
+    font-weight: 700;
+    opacity: 0.15;
+}
+
+
+.section-contact .form-contact .single-input {
+	position: relative;
+    margin-top: 40px;
+}
+
+.section-contact .form-contact .single-input i {
+	position: absolute;
+    top: 5px;
+    left: 15px;
+    color: #5fb7f1;
+}
+
+.section-contact .form-contact .single-input input,
+.section-contact .form-contact .single-input textarea {
+	width: 100%;
+    border: none;
+    border-bottom: 2px solid #5fb7f1;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+		transition: border .3s;
+}
+
+.section-contact .form-contact .single-input input::placeholder,
+.section-contact .form-contact .single-input textarea::placeholder {
+	color: rgba(7, 57, 92, .3);
+}
+
+.section-contact .form-contact .single-input input:focus,
+.section-contact .form-contact .single-input textarea:focus {
+	border-color: #5fb7f1;
+}
+
+.section-contact .form-contact .single-input textarea {
+	height: 150px;
+	min-height: 50px;
+}
+
+.section-contact .form-contact .submit-input input {
+	margin-top: 40px;
+    padding: 15px 50px;
+    background-color: #5fb7f1;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    transition: background-color .3s;
+}
+
+.section-contact .form-contact .submit-input input:hover {
+	background-color: #07395c;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+.footer-style{
+    background-color: #ffffff;
+}
+.footer-links-style li{
+    list-style-type: none;
+    position: relative;
+    padding-left: 15px;
+}
+.footer-links-style li:before {
+    content: "\25BA \0020";
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+    left: -20px;
+}
+.footer-links-style li a{
+    color: #000;
+}
+.footer-links-service li a{
+    color: #000;
+}
